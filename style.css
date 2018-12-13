@@ -1,69 +1,13 @@
 * {
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
-body {
-  font-family: sans-serif;
   margin: 0;
-  font-family: 'Indie Flower', cursive;
-  font-family: 'Open Sans', sans-serif;
-
+  padding: 0;
+  outline: 0;
 }
 
-h1 {
-  text-transform: uppercase;
-  margin-top: 0;
-}
-
-img {
-  max-height: 300px;
-}
-
-.nav {
-  background: #50514F;
-  padding-left: 100px;
-}
-
-a {
+Body{
+  font: 400 1em/1.5 "Neuton";
+  background: pink;
   color: white;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px;
-}
-
-a:hover {
-  background: #5F605E;
-  font-family: 'Indie Flower', cursive;
-}
-
-.header {
-  padding: 50px;
-  padding-left: 100px;
-  min-height: 300px;
-}
-
-.section {
-  padding: 50px;
-  padding-left: 100px;
-  min-height: 300px;
-  color: purple;
-}
-
-#s1 {
-  background: #F25F5C;
-}
-
-/* Add your CSS here: */
-
-
-
-/*Custom Colors: https://coolors.co/50514f-f25f5c-ffe066-247ba0-70c1b3
-
-darkgrey: #50514F
-lightgrey: #BDBFBB
-red: #F25F5C
-blue: #247BA0
-yellow: #FFE066
-green: #70C1B3
-*/
+  text-align: center;
+  margin: 0 ;
+  }
